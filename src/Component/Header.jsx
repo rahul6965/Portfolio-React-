@@ -1,15 +1,31 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 export default function Header({
   scrollToSection,
   ExprinceRef,
-  AboutmeRef,
+
   SkillRef,
   SwiperRef,
   ContactRef
 }) {
+    const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className='cussticky'>
+    <div className={isSticky ? "header cussticky" : "header"}>
       <nav className="navbar navbar-expand-lg">
     <div className="container">
           

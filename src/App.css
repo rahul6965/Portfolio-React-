@@ -1032,7 +1032,7 @@
 }
 
 /* Arc Design */
-.navbar-nav .nav-link::before,
+/* .navbar-nav .nav-link::before,
 .navbar-nav .nav-link::after {
     content: "";
     position: absolute;
@@ -1043,33 +1043,35 @@
     border-radius: 50%;
     opacity: 0;
     transition: 0.3s ease;
-}
+} */
 
-.navbar-nav .nav-link::before {
+/* .navbar-nav .nav-link::before {
    left: -7px;
     border-right: transparent;
     border-top: transparent;
     transform: rotate(45deg);
   
-}
+} */
 
-.navbar-nav .nav-link::after {
+/* .navbar-nav .nav-link::after {
      right: -7px;
     border-left: transparent;
     border-top: transparent;
     transform: rotate(320deg);
-}
+} */
 
-.navbar-nav .nav-link:hover::before,
+/* .navbar-nav .nav-link:hover::before,
 .navbar-nav .nav-link:hover::after {
   opacity: 1;
   bottom: 8px;
-}
+} */
 .cussticky{
-    position: sticky;
+      position: sticky;
     top: 0;
     background: white !important;
     z-index: 999;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(4px);
 }
 @media (max-width: 1220px) {
    .hero-title {
