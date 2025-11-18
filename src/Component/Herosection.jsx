@@ -1,6 +1,6 @@
 import bannerbg from "../assets/images/bg-effect.png"
 import profileimg from "../assets/images/profile3.png"
-import cvPDF from "../assets/pdf/rahul-cv7.pdf";
+// import cvPDF from "pdf/rahul-cv7.pdf";
 
 export default function Herosection() {
   return (
@@ -46,7 +46,7 @@ export default function Herosection() {
 
                         </div>
                         <div className="badge-text">
-                            <a href= {cvPDF} download className="btn ">
+                            <a href= "/rahul-cv7.pdf" download className="btn ">
   Download Resume
 </a>
                         </div>
