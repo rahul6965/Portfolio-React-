@@ -46,7 +46,7 @@ export default function Herosection() {
 
                         </div>
                         <div className="badge-text">
-                            <a href= "/rahul-cv7.pdf" download className="btn ">
+                            <a href= "/Rahul(frontedcv).pdf" download className="btn ">
   Download Resume
 </a>
                         </div>
