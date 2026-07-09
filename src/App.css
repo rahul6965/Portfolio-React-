@@ -447,7 +447,10 @@
             line-height: 1.6;
             font-size: 0.95rem;
         }
- 
+   .position-description span {
+    display: inline-block;
+    margin-bottom: 7px;
+}
         @media (max-width: 768px) {
             .hero-section{
                 height: 100%;
@@ -490,7 +493,7 @@
     color: white;
     padding: 4px 6px;
     border-radius: 5px;
-
+     margin-left: 5px;
         }
 
         .cus-design .position-description span{

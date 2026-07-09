@@ -38,7 +38,7 @@ export default function Aboutme({ExprinceRef}) {
                                <img width="50%"  src={FrontendDevelopment} alt=""/>
                         </div>
                         <div className="service-content">
-                            <h3>Frontend Development (React)</h3>
+                            <h3>Frontend Development (React.js & Next.js)</h3>
                            
                         </div>
                     </div>
@@ -56,11 +56,11 @@ export default function Aboutme({ExprinceRef}) {
         </h3>
 
         <ul className="experience-list">
-          <li>Designed and developed responsive, visually appealing web applications using React.js, Redux Toolkit, and Bootstrap.</li>
-          <li>Implemented reusable components and managed application state for scalable architecture.</li>
-          <li>Integrated REST APIs with Axios and ensured smooth data rendering.</li>
-          <li>Optimized frontend performance and page load speed for better user experience.</li>
-        </ul>
+  <li>Designed and developed responsive web applications using React.js, Next.js, Material UI, and Bootstrap.</li>
+  <li>Implemented reusable components and managed application state for scalable architecture.</li>
+  <li>Integrated REST APIs with Axios and ensured smooth data rendering.</li>
+  <li>Optimized frontend performance and page load speed for better user experience.</li>
+</ul>
       </div>
     </section>
                 </div>

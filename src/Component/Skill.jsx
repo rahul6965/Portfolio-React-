@@ -24,7 +24,7 @@ export default function Skill({SkillRef}) {
                 <div className="timeline-right">
                     <div className="position-title">Technologies I Use</div>
                     <div className="position-description">
-                        <span>React.js</span> <span>Redux Toolkit</span> <span>JavaScript (ES6+)</span> <span>Bootstrap 5</span> <span> HTML5</span> <span>CSS3</span> <span>SCSS</span> <span>Responsive Design</span> 
+                        <span>React.js</span> <span>Next.js</span> <span>Redux Toolkit</span>  <span>JavaScript (ES6+)</span>    <span>Material UI (MUI)</span>    <span>Tailwind CSS</span> <span>Bootstrap 5</span> <span> HTML5</span> <span>CSS3</span> <span>SCSS</span> <span>Responsive Design</span> 
                     </div>
                 </div>
             </div>
